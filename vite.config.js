@@ -6,7 +6,7 @@ export default defineConfig({
   root: 'src',                  // <-- index.html is inside src/
   publicDir: '../static',       // optional static folder
   base: process.env.NODE_ENV === 'production'
-    ? '/Jagape-ITE18-Act1.16/' // GitHub repo name
+    ? '/Jagape-ITE18-Act1.7/' // GitHub repo name
     : '/',
   server: {
     host: true,
